@@ -1,6 +1,10 @@
 {
   "name": "nodejs-web-app5",
   "version": "0.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js Tom 26"
+  },
   "description": "NodejsWebApp5",
   "main": "server.js",
   "author": {
@@ -11,7 +15,6 @@
   },
   "eslintConfig": {},
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "express": "^4.18.2"
   }
 }

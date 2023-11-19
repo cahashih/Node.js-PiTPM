@@ -28,6 +28,11 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="10\server.js" />
+    <Content Include="11\questions.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="11\server.js" />
     <Content Include="1\server.js" />
     <Content Include="2\greeting.js" />
     <Content Include="2\server.js" />
@@ -39,6 +44,12 @@
     <Content Include="3\welcome\morning.js" />
     <Content Include="4\greeting.js" />
     <Content Include="4\server.js" />
+    <Content Include="5\server.js" />
+    <Content Include="6\package.json" />
+    <Content Include="6\server.js" />
+    <Content Include="7\server.js" />
+    <Content Include="8\server.js" />
+    <Content Include="9\server.js" />
     <Content Include="greeting.js">
       <SubType>Code</SubType>
     </Content>
@@ -59,11 +70,18 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="10\" />
+    <Folder Include="11\" />
     <Folder Include="1\" />
     <Folder Include="2\" />
     <Folder Include="3\" />
     <Folder Include="3\welcome\" />
     <Folder Include="4\" />
+    <Folder Include="5\" />
+    <Folder Include="6\" />
+    <Folder Include="7\" />
+    <Folder Include="8\" />
+    <Folder Include="9\" />
     <Folder Include="welcome\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
